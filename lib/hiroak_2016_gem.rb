@@ -1,7 +1,9 @@
 require "hiroak_2016_gem/version"
 
-#module Hiroak2016Gem
+module Hiroak2016Gem
+ class Main
   def greeting
-    puts "Hello!"
+    return "Hello!"
   end
-#end
+ end
+end
